@@ -30,7 +30,7 @@ import api from "../services/api";
             page
          });
     };
-
+//Renderizar os produtos em tela
     renderItem = ({ item }) => (
         <View style={styles.productContainer}>
             <Text style={styles.productTitle}>{item.title}</Text>
